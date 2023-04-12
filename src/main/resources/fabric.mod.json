@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrictesting",
+  "version": "${version}",
+  "name": "FabricTesting2",
+  "description": "",
+  "authors": [
+    "Caledonian"
+  ],
+  "contact": {
+    "repo": "https://github.com/CaledonianEH/FabricTesting2"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/FabricTesting2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.caledonian.fabrictesting2.FabricTesting2"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-language-kotlin": ">=1.9.3+kotlin.1.8.20",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
